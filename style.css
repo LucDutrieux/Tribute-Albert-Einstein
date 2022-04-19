@@ -1,0 +1,136 @@
+/* Style for A Tribute To Albert Einstein compiled by Luc Dutrieux on 31st December 2021 */
+
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  
+}
+#image{
+    display:block ;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 8px;
+}
+#title2{
+    display:block ;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.8rem;
+    color: black;
+    
+}
+#intro{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+p{
+    text-align: center;
+    font-weight: 100;
+    color: rgb(136, 136, 165);
+    font-size: 1.5rem;
+}
+figure{
+    text-align: center;
+}
+h3{
+    margin-left: 150px;
+    font-size: 1.8rem;
+}
+#milestones{
+    margin-left: 135px;
+    font-size: 1.2rem;
+}
+a{
+    color: blue;
+    
+}
+a:hover{
+    color: cornflowerblue;
+}
+.para{
+    text-align: justify;
+    margin-left: 150px;
+    font-size: 1.2rem;
+    color: black;
+    margin-right: 100px;
+}
+li{
+    margin-right: 100px;
+}
+u{
+    color:rgb(7, 58, 58);
+    font-size: 1.3rem;
+}
+cite{
+    display: block;
+    width:600px;
+    color:darkblue;
+    font-size: 1.3rem;
+    margin: 0 auto 0 auto;
+}
+@media(max-width:1200px){
+    h3{
+        margin-left: 150px;
+        font-size: 1.1rem;
+    }
+    p{
+        font-size: 1.0rem;
+    }
+    #image{
+        width:200px
+    }
+    #intro{
+        font-size: 0.8rem;
+    }
+    #title, #title2{
+        font-size: 1.3rem;
+        text-align:center;
+        /* width: 600px; */
+    }
+    figcaption{
+        font-size: 0.9rem;
+    }
+    cite{
+        font-size:0.9rem;
+        width: 350px;
+    }
+    .para{
+        font-size: 1rem;
+    }
+
+/* Code For Images Follows */
+#grid-item1{
+    margin-left: 100px;
+}
+}
+#footer{
+    font-size: .95rem;
+}
+.pics{
+    margin: 8px;
+    font-size: 0.8rem;
+    
+}
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width:46.5%;
+    height: 100%;
+}
+.grid-container{
+    display: flex;
+    justify-content:space-around;
+    column-gap: 10px;
+    
+}
+@media(max-width:1360px){
+    .pic{
+        font-size: 0.7rem;
+    }
+}
+
+
+
+
